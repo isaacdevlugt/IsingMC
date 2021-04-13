@@ -13,8 +13,8 @@ struct NNIsing <: AbstractIsing
     J::Float64
     B::Float64
     dims::IntOrTupleInt
-    PBC::NTuple{2, Bool}
-    NNIsing(J,B,dims,PBC) = new(J,B,dims,PBC)
+    #PBC::NTuple{2, Bool}
+    NNIsing(J,B,dims) = new(J,B,dims)
 end
 
 #=
