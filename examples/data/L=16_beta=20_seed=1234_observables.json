@@ -1,0 +1,12 @@
+{
+  "energy": {
+    "variance": 0.0,
+    "error": 0.0,
+    "mean": -1.0
+  },
+  "magnetization": {
+    "variance": 0.0,
+    "error": 0.0,
+    "mean": 1.0
+  }
+}
