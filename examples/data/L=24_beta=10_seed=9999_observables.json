@@ -1,0 +1,27 @@
+{
+  "sqr_magnetization": {
+    "variance": 0.0,
+    "error": 0.0,
+    "mean": 0.0
+  },
+  "abs_magnetization": {
+    "variance": 0.0,
+    "error": 0.0,
+    "mean": 0.0
+  },
+  "energy": {
+    "variance": 1.774938811686088e-30,
+    "error": 1.3322682956845023e-18,
+    "mean": -0.9166666666666653
+  },
+  "magnetization": {
+    "variance": 0.0,
+    "error": 0.0,
+    "mean": 0.0
+  },
+  "sqr_energy": {
+    "variance": 2.083087910937145e-30,
+    "error": 1.4432906536582108e-18,
+    "mean": 0.8402777777777791
+  }
+}

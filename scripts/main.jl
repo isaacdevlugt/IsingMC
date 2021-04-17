@@ -51,6 +51,8 @@ function run(parsed_args)
     abs_mags = zeros(Float64, MCS)
     mags_sqr = zeros(Float64, MCS)
 
+    println("Running $H, beta=$beta")
+
     # equil
     if !eqoff
         for i in 1:EQ_MCS

@@ -1,0 +1,22 @@
+{
+  "sqr_magnetization": {
+    "variance": 0.0,
+    "error": 0.0,
+    "mean": 0.0
+  },
+  "energy": {
+    "variance": 9.984030815734246e-31,
+    "error": 9.992012217633766e-19,
+    "mean": -0.8333333333333344
+  },
+  "magnetization": {
+    "variance": 0.0,
+    "error": 0.0,
+    "mean": 0.0
+  },
+  "sqr_energy": {
+    "variance": 6.039722345320717e-31,
+    "error": 7.771565058159597e-19,
+    "mean": 0.6944444444444438
+  }
+}

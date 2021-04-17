@@ -18,12 +18,18 @@ function ΔE(H::NNIsing, mc_state::MCState, site::Int)
 end
 
 function spin_flip_update!(H::NNIsing, mc_state::MCState, β::Float64)
-    site = rand(1:nspins(H))
-    Ediff = ΔE(H, mc_state, site)
+    N = nspins(H)
+    shuffled_sites = collect(1:N)[randperm(N)]
     spin_config = mc_state.spin_config
 
-    if rand() < min(1, exp(-β*Ediff))
-        spin_config[site] ⊻= 1
+    for site in shuffled_sites
+        site = rand(1:nspins(H))
+        Ediff = ΔE(H, mc_state, site)
+        spin_config = mc_state.spin_config
+
+        if rand() < min(1, exp(-β*Ediff))
+            spin_config[site] ⊻= 1
+        end
     end
 end
 
