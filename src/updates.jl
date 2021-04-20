@@ -19,7 +19,6 @@ function spin_flip_update!(H::NNIsing, mc_state::MCState, β::Float64)
     spin_config = mc_state.spin_config
 
     for site in shuffled_sites
-        site = rand(1:nspins(H))
         Ediff = ΔE(H, mc_state, site)
         spin_config = mc_state.spin_config
 
