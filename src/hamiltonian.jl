@@ -1,7 +1,5 @@
 # 2D Ising PBC
 
-using LinearAlgebra
-
 abstract type AbstractIsing end
 
 # TODO: general Ising

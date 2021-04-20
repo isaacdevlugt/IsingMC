@@ -10,7 +10,6 @@ using DrWatson: savename
 using ArgParse
 using Random
 using DelimitedFiles
-using JLD2
 using JSON
 using FileIO
 

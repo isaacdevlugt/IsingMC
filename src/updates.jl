@@ -2,10 +2,6 @@
 # wolff
 # single spin flip
 
-using DataStructures
-using Statistics
-using DelimitedFiles
-
 include("mc_state.jl")
 
 function ΔE(H::NNIsing, mc_state::MCState, site::Int)
