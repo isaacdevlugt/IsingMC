@@ -1,4 +1,4 @@
-# Monte Carlo simulations of the 2D classical XY model with periodic boundaries.
+# Monte Carlo simulations of the 2D classical Ising model with periodic boundaries.
 
 To run this code, you must have the following dependencies.
 
